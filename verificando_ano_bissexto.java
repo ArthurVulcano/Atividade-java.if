@@ -6,7 +6,6 @@ public class verificando_ano_bissexto {
         Scanner sm = new Scanner(System.in);
         System.out.println("Digite um ano");
          x = sm.nextInt();
-        int mod = x%400;
         if ((x %400 ==0 ) || ((x % 4 == 0 ) && (x % 100 != 0))){
             System.out.println("Ano  bissexto");
         }
