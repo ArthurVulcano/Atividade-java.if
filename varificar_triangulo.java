@@ -10,7 +10,7 @@ public class varificar_triangulo {
         int x2 = sm.nextInt();
         System.out.println("Digite x numero");
         int x3 = sm.nextInt();
-        if (x > x3 && x2 > x3){
+        if (x + x2 > x3){
             System.out.println("Pode-se formar um triangulo" );
         }
         else {
