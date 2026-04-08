@@ -2,7 +2,6 @@ package lista3_see_comparadorlogico;
 import java.util.Scanner;
 public class verificando_ano_bissexto {
     public static void main(String[] args) {
-        int biss = 400;
         int x;
         Scanner sm = new Scanner(System.in);
         System.out.println("Digite um ano");
