@@ -15,7 +15,7 @@ public class verificacao_de_faixa_etaria {
         }
         if (x > 64){
             System.out.println("Idoso");
-        } else if (x < 12) {
+        } else if (x <= 12) {
             System.out.println("Criança");
         }
         {
