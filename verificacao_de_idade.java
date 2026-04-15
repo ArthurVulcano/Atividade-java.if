@@ -11,5 +11,6 @@ public class verificacao_de_idade {
         else {
             System.out.println("Menorde idade: " + x );
         }
+         sm.close();
     }
 }
