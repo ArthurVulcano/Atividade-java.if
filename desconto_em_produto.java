@@ -12,6 +12,7 @@ public class desconto_em_produto {
         else {
             System.out.println("Sem desconto: " + x);
         }
+        sm.close();
 
     }
 }
