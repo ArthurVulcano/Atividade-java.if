@@ -16,5 +16,6 @@ public class varificar_triangulo {
         else {
             System.out.println("Não se pode formar");
         }
+         sm.close();
     }
 }
