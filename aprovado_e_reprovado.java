@@ -12,5 +12,6 @@ public class aprovado_e_reprovado {
         else {
             System.out.println("Reprovado");
         }
+        sm.close();
     }
 }
