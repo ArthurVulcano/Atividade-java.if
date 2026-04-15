@@ -12,6 +12,7 @@ public class verificacao_de_temperatura {
         else {
             System.out.println("Temperatura dentro dos limites");
         }
+         sm.close();
 
     }
 }
