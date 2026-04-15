@@ -14,6 +14,7 @@ public class verificar_numeros_iguais {
         else {
             System.out.println("Não iguais");
         }
+         sm.close();
 
     }
 }
