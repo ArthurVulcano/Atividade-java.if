@@ -27,5 +27,6 @@ public class verificar_maior_menor_entre_tres_numeros {
         else {
             System.out.println("O terceiro numero é menor");
         }
+         sm.close();
     }
 }
